@@ -96,7 +96,7 @@ public class MainActivity extends Activity {
 	}
 	/*-----------------------------------------------------------------*/
 	
-	public  int result( View view){ 
+	public  void result( View view){ 
 		 
 		if ( data.size() < 2 && master.getText().toString() == null){
 			
@@ -158,11 +158,7 @@ public class MainActivity extends Activity {
 		}
 		
 	
-		
-		
-		
-		return 1;
-	
+ 
 	
 	
 	}
